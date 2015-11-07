@@ -1,14 +1,17 @@
 ---
 name: "blackcoin"
 suites:
-- "lucid"
+- "precise"
 architectures:
 - "i386"
 - "amd64"
 packages: 
-- "libdb4.8++-dev"
-- "qt4-qmake"
-- "libqt4-dev"
+- "libdb++-dev"
+- "qt5-default"
+- "qt5-qmake"
+- "qtbase5-dev-tools"
+- "qttools5-dev-tools"
+- "build-essential"
 - "libboost-dev"
 - "libboost-system-dev"
 - "libboost-filesystem-dev"
